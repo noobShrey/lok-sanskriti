@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>एडमिन पैनल - लोक संस्कृति</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>गीत एवं भजन अपलोड पैनल</h1>
+    <p><a href="index.html" style="color: #8c2d19; text-decoration: none;">← मुख्य पृष्ठ पर जाएं</a></p>
+  </header>
+
+  <main>
+    <form id="upload-form" class="controls">
+      <label for="song-title"><strong>गीत का शीर्षक:</strong></label>
+      <input type="text" id="song-title" placeholder="उदाहरण: हे शिव शंभू" required>
+
+      <label for="song-category"><strong>श्रेणी:</strong></label>
+      <select id="song-category" required>
+        <option value="bhajan">भजन</option>
+        <option value="sohar">सोहर</option>
+        <option value="vivah">विवाह गीत</option>
+        <option value="chhath">छठ गीत</option>
+        <option value="lokgeet">पारंपरिक लोकगीत</option>
+      </select>
+
+      <label for="song-dialect"><strong>भाषा / बोली:</strong></label>
+      <select id="song-dialect" required>
+        <option value="hindi">हिन्दी</option>
+        <option value="bhojpuri">भोजपुरी</option>
+        <option value="maithili">मैथिली</option>
+        <option value="angika">अंगिका</option>
+        <option value="magahi">मगही</option>
+      </select>
+
+      <label for="song-lyrics"><strong>गीत के बोल:</strong></label>
+      <textarea id="song-lyrics" rows="6" placeholder="गीत या भजन के बोल यहाँ लिखें..." required></textarea>
+
+      <label for="song-meaning"><strong>भावार्थ या संदर्भ:</strong></label>
+      <textarea id="song-meaning" rows="3" placeholder="इस गीत का भावार्थ या लोक संदर्भ..." required></textarea>
+
+      <label for="song-audio"><strong>ऑडियो लिंक (वैकल्पिक):</strong></label>
+      <input type="url" id="song-audio" placeholder="https://example.com/audio.mp3">
+
+      <label for="song-image"><strong>हस्तलिखित पांडुलिपि / फोटो:</strong></label>
+      <input type="file" id="song-image" accept="image/*">
+
+      <button type="submit" id="submit-btn" style="background: #8c2d19; color: #fff; padding: 0.8rem; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; margin-top: 1rem;">
+        अपलोड करें
+      </button>
+
+      <p id="status-message" style="margin-top: 1rem; text-align: center; font-weight: bold;"></p>
+    </form>
+  </main>
+
+  <script type="module" src="admin.js"></script>
+</body>
+</html>
