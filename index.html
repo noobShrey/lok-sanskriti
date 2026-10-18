@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>लोक संस्कृति संकलन</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>लोक संस्कृति संकलन</h1>
+    <p>पारंपरिक गीत एवं भजन संग्रह</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input type="text" id="search-input" placeholder="शीर्षक, बोल या शब्द खोजें...">
+      
+      <div class="filter-row">
+        <select id="dialect-filter">
+          <option value="all">सभी भाषाएँ / बोलियाँ</option>
+          <option value="hindi">हिन्दी</option>
+          <option value="bhojpuri">भोजपुरी</option>
+          <option value="maithili">मैथिली</option>
+          <option value="angika">अंगिका</option>
+          <option value="magahi">मगही</option>
+        </select>
+
+        <select id="category-filter">
+          <option value="all">सभी श्रेणियाँ</option>
+          <option value="bhajan">भजन</option>
+          <option value="sohar">सोहर</option>
+          <option value="vivah">विवाह गीत</option>
+          <option value="chhath">छठ गीत</option>
+          <option value="lokgeet">पारंपरिक लोकगीत</option>
+        </select>
+      </div>
+    </section>
+
+    <div id="songs-container">
+      <p>लोड हो रहा है...</p>
+    </div>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
