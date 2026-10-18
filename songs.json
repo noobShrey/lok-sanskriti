@@ -1,0 +1,22 @@
+[
+  {
+    "id": "geet-001",
+    "title": "हे शिव शंभू",
+    "category": "bhajan",
+    "dialect": "hindi",
+    "deityOrOccasion": "shiva",
+    "lyrics": "हे शिव शंभू, हे त्रिपुरारी,\nविपदा हरो अब नाथ हमारी।\nशीश जटा विच गंगा विराजे,\nगल मुंडों की माला साजे।",
+    "meaning": "भगवान शिव की स्तुति जिसमें विपत्तियों से मुक्ति की प्रार्थना की गई है।",
+    "audioUrl": "https://ia800301.us.archive.org/15/items/testmp3testfile/mpthreetest.mp3"
+  },
+  {
+    "id": "geet-002",
+    "title": "जुग जुग जियसु ललनवा",
+    "category": "sohar",
+    "dialect": "bhojpuri",
+    "deityOrOccasion": "janm",
+    "lyrics": "जुग जुग जियसु ललनवा भवनवा के भाग जागल हो,\nललना लाल होइहें कुलवा के दीपक मनवा में आस लागल हो।",
+    "meaning": "संतान जन्म पर गाया जाने वाला पारंपरिक सोहर, जिसमें नवजात के दीर्घायु होने की कामना है।",
+    "audioUrl": ""
+  }
+]
